@@ -1,8 +1,64 @@
- h5 {
+* {
+  font-family: "Open Sans", sans-serif;
+  background-color: #F5F4F0;
+}
+ul li::marker {
+  color: #333333;
+}
+h5 {
   color: #E1624F;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+h1{
+  font-size: 36px;
+  color: #1B1B1B;
+  font-weight: 1120;
+}
+header {
+  font-size: 16px;
+  line-height: 22px;
+  font-style: italic; 
+  text-align: center;
+  color: #333333;
+  margin-top: 24px;
+}
+h2{
+  font-size: 32px;
+}
+h6 {
+  font-size: 16px;
+}
+p{
+  font-size: 16px;
+}
+#haedong li {
+  color: #0C51A7;
+  font-weight: bold;
+}
+#beomeo-sa li{
+  font-weight: bold;
+  color: #0C51A7;
+}
+#yongdusan li{
+  font-weight: bold;
+}
+img{
+  width: 100%;
 }
 
-
+/* footer { 
+  color: ; 
+  text-align: center;
+  padding-bottom: 48px
+ } */
+footer img {
+  vertical-align: middle;
+  width: 16px;
+  color: #333333;
+}
 
 .divider {
   width: 100%;
