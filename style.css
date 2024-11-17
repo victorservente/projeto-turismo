@@ -45,6 +45,17 @@ p{
 #yongdusan li{
   font-weight: bold;
 }
+.item1 {
+  color: #591B98;
+}
+.item2 {
+  color: #E5245E;
+}
+.item3 {
+  color: #E95E10;
+}
+
+
 img{
   width: 100%;
 }
