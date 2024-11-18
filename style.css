@@ -1,9 +1,16 @@
 * {
   font-family: "Open Sans", sans-serif;
+  font-style: italic;
   background-color: #F5F4F0;
+  margin: 0;
+  padding: 0;
 }
-ul li::marker {
-  color: #333333;
+ #page { 
+  margin: 88px 80px;
+ }
+main{
+  padding: 40px;
+  font-size: 16px;
 }
 h5 {
   color: #E1624F;
@@ -16,31 +23,45 @@ h1{
   font-size: 36px;
   color: #1B1B1B;
   font-weight: 1120;
+  margin-top: 8px;
+  margin-bottom: 40px;
 }
 header {
-  font-size: 16px;
   line-height: 22px;
-  font-style: italic; 
   text-align: center;
   color: #333333;
   margin-top: 24px;
+  margin-bottom: 40px;
+}
+#descubra {
+  margin-top: 64px;
+  margin-bottom: 64px;
 }
 h2{
   font-size: 32px;
+  margin-top: 2px;
+  margin-bottom: 8px;
+}
+h3 {
+  font-size: 28px;
+  margin-bottom: 4px;
+  margin-top: 20px;
 }
 h6 {
   font-size: 16px;
 }
-p{
-  font-size: 16px;
+ul li::marker {
+  color: #333333;
 }
 #haedong li {
   color: #0C51A7;
   font-weight: bold;
+  margin-bottom: 48px;
 }
 #beomeo-sa li{
   font-weight: bold;
   color: #0C51A7;
+  margin-bottom: 48px;
 }
 #yongdusan li{
   font-weight: bold;
@@ -54,12 +75,13 @@ p{
 .item3 {
   color: #E95E10;
 }
-
-
 img{
   width: 100%;
 }
-
+#description {
+  margin-top: 40px;
+  margin-bottom: 65px;
+}
 /* footer { 
   color: ; 
   text-align: center;
@@ -70,7 +92,6 @@ footer img {
   width: 16px;
   color: #333333;
 }
-
 .divider {
   width: 100%;
   height: 1px;
